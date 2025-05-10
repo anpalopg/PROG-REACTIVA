@@ -1,0 +1,26 @@
+# Inicia WSL en cmd
+wsl
+
+# Navega al docker-compose.yml
+cd /mnt/c/Users/User/Desktop/REACTIVE/ejercicio16
+
+# Actualiza la lista de paquetes 
+sudo apt update
+
+# Instala Docker Compose 
+sudo apt install docker-compose
+
+#  versión de Compose instalada
+docker-compose --version
+
+# Inicia los servicios  docker-compose.yml
+docker-compose up -d
+
+# contenedores que están corriendo actualmente
+docker-compose ps
+
+# Accede la URL: http://localhost:15672
+
+# Inicia sesión 
+# Usuario: Andrea
+# Contraseña: 1503

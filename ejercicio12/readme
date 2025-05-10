@@ -1,0 +1,4 @@
+##javac -cp ".;..\lib\rxjava-3.1.6.jar;..\lib\reactive-streams-1.0.3.jar" ejercicio12.java
+
+
+##java -cp ".;..\lib\rxjava-3.1.6.jar;..\lib\reactive-streams-1.0.3.jar" ejercicio12
