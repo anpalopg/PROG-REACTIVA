@@ -19,26 +19,26 @@
   </properties>
 
   <dependencies>
-    <!-- JUnit -->
+    
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <!-- Spring WebFlux -->
+ 
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-webflux</artifactId>
       <version>${spring.boot.version}</version>
     </dependency>
-    <!-- RxJava 3 -->
+ 
     <dependency>
       <groupId>io.reactivex.rxjava3</groupId>
       <artifactId>rxjava</artifactId>
       <version>${rxjava.version}</version>
     </dependency>
-    <!-- Adaptadores Reactor ↔ RxJava -->
+   
     <dependency>
       <groupId>io.projectreactor.addons</groupId>
       <artifactId>reactor-adapter</artifactId>
@@ -49,7 +49,7 @@
   <build>
     <pluginManagement>
       <plugins>
-        <!-- Maven Compiler Plugin -->
+     
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
@@ -58,7 +58,7 @@
             <target>${java.version}</target>
           </configuration>
         </plugin>
-        <!-- Spring Boot Maven Plugin -->
+
         <plugin>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-maven-plugin</artifactId>
